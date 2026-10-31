@@ -128,3 +128,7 @@ subscriptiq/
 ## 📜 License
 
 MIT — Built for **Project Orbit** Hackathon Demo.
+
+
+
+ye delete krdio
