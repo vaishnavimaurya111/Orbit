@@ -110,7 +110,7 @@ Development Tools| VS Code, Git, GitHub
 ---
 
 📁 Project Structure
-
+```bash
 ORBIT/
 │
 ├── frontend/
@@ -139,7 +139,7 @@ ORBIT/
 │
 ├── .gitignore
 └── README.md
-
+```
 Note: Folder structure may evolve as development progresses.
 
 ---
@@ -147,22 +147,22 @@ Note: Folder structure may evolve as development progresses.
 ⚙️ Installation & Setup
 
 1. Clone the Repository
-
+```bash
 git clone https://github.com/YOUR_USERNAME/ORBIT.git
 cd ORBIT
-
+```
 2. Install Frontend Dependencies
-
+```bash
 cd frontend
 npm install
-
+```
 3. Install Backend Dependencies
 
 Open another terminal:
-
+```bash
 cd backend
 npm install
-
+```
 4. Configure PostgreSQL
 
 - Install PostgreSQL on your system.
@@ -176,31 +176,31 @@ database/seed.sql
 5. Configure Environment Variables
 
 Create a ".env" file inside the "backend" directory:
-
+```bash
 PORT=5000
 DATABASE_URL=postgresql://postgres:YOUR_PASSWORD@localhost:5432/orbit
 
 JWT_SECRET=your_secure_secret_key
 NODE_ENV=development
-
+```
 Replace "YOUR_PASSWORD" with your PostgreSQL password.
 
 6. Start the Backend
-
+```bash
 cd backend
 npm run dev
-
+```
 7. Start the Frontend
-
+```bash
 cd frontend
 npm run dev
-
+```
 Open the local URL displayed by Vite in your browser.
 
 ---
 
 🔌 API Modules
-
+```bash
 Module| Endpoint
 Authentication| "/api/auth"
 Users| "/api/users"
@@ -217,7 +217,7 @@ Taxes| "/api/taxes"
 Discounts| "/api/discounts"
 Analytics| "/api/analytics"
 Reports| "/api/reports"
-
+```
 ---
 
 💡 How ORBIT Works
