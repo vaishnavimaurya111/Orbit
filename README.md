@@ -1,4 +1,4 @@
-# SubscriptIQ 🚀
+# ORBIT 🚀
 
 > **Smart Subscription Management & Recurring Billing Platform**  
 > A production-grade full-stack SaaS application built for the **Orbit Hackathon**.
